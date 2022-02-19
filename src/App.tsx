@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from './logo.svg';
 import {Routes, Route, BrowserRouter, Link} from 'react-router-dom'
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
             <div className="App">
                 <header className="App-header">
 
+                    <img src={logo} alt="react logo"/>
                     <Link to="/">home</Link>
                     <br/>
                     <Link to="/about">about</Link>
