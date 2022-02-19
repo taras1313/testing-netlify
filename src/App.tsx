@@ -3,7 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const [state, setState] = useState<string>(1)
+
+  console.log('test')
+
   return (
     <div className="App">
       <header className="App-header">
