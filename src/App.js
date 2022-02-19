@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Kek it's working {process.env.REACT_APP_TEST_MESSAGE} ON DEVELOP
+          Kek it's working {process.env.REACT_APP_TEST_MESSAGE} ON DEVELOP!!!!!
         </p>
         <a
           className="App-link"
