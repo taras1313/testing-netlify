@@ -2,14 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 
 
-console.log(process.env.REACT_APP_TEST_MESSAGE)
+console.log(process.env.REACT_APP_TEST_MESSAGE, 'DEVELOP')
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Kek it's working {process.env.REACT_APP_TEST_MESSAGE}
+          Kek it's working {process.env.REACT_APP_TEST_MESSAGE} ON DEVELOP
         </p>
         <a
           className="App-link"
