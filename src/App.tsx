@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import { Routes, Route, BrowserRouter, Link } from "react-router-dom";
 import "./App.css";
 import { About } from "./components/About";
 
-const Home = () => <div>home</div>;
+const Home = () => <div>home page</div>;
 
 function App() {
   return (
